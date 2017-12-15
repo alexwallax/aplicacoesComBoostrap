@@ -24,18 +24,40 @@
                             </div>
 
                             <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" class="form-control">                                
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" class="form-control">                                
                             </div>
                             
                             <div class="form-group">
                                 <label>Sexo:</label>
+                                <br>
                                 <label for="masculino" class="radio-inline">
-                                    <input type="radio" id="masculino" name="sexo" checked="">
+                                    <input type="radio" id="masculino" name="sexo" checked>
                                     Masculino
                                 </label>
-                                                
-                            </div>         
+
+                                <label for="feminino" class="radio-inline">
+                                    <input type="radio" id="feminino" name="sexo">
+                                    Feminino
+                                </label>
+                                
+                                <label for="outros" class="radio-inline">
+                                    <input type="radio" id="outros" name="sexo">
+                                    Outros
+                                </label>  
+                                
+                            </div>   
+                            
+                            <div class="form-group">
+                                <label for="cidade">Cidade</label>
+                                <select id="cidade" name="cidade" class="form-control">
+                                    <option selected disabled>Selecione a cidade</option>
+                                    <option value="natal">Natal</option>
+                                    <option value="mossoro">Mossoró</option>
+                                    <option value="caico">Caicó</option>
+                                </select>
+                            </div>
+                            
                         </form>
                     </fieldset>
                 </div>
